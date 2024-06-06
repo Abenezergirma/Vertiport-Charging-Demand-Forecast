@@ -1,0 +1,11 @@
+{# Import the base theme's layout. #}
+{% extends "!layout.html" %}
+
+{# Add custom HTML for the icon. #}
+{% block relbar1 %}
+<div style="text-align: left; padding: 10px 0;">
+    <img src="{{ pathto('_static/chapter2_icon.png', 1) }}" alt="Project Icon" style="width: 50px;">
+</div>
+{{ super() }}
+{% endblock %}
+

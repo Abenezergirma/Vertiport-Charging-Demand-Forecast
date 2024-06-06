@@ -12,7 +12,7 @@ The project is designed to handle various tasks, including:
 - Visualizing the locations of vertiports and their energy demands on a map.
 
 ## Directory Structure
-
+```bash
 Vertiport-Charging-Demand-Forecast/
 │
 ├── data/
